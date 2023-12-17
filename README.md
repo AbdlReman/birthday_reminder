@@ -1,8 +1,4 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The user interacts with a simple, responsive interface displaying the list of birthdays.
+Each birthday entry includes an image, name, age, and a "remove" button to delete that specific birthday.
+..Removing a single birthday or all birthdays triggers a state change that updates the displayed list dynamically without needing to reload the page.
+Overall, users can view a list of birthdays, remove individual birthdays, or clear the entire list based on their preference using the provided interface.
